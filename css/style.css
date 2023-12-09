@@ -611,7 +611,7 @@ section {
   display: inline-block;
   padding-left: 10px;
   color: #122f57;
-  content: "";
+  content: "/";
 }
 
 @media (max-width: 768px) {
@@ -652,4 +652,41 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+.services .icon-box {
+  margin-bottom: 20px;
+}
+.services .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #bebebe54;
+  transition: 0.5s;
+}
+.services .icon i {
+  color: #6b6b6b;
+  font-size: 18px;
+  line-height: 0;
+}
+.services .icon-box:hover .icon {
+  background: #dfc1007c;
+}
+.services .icon-box:hover .icon i {
+  color: #000000;
+}
+.services .title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #000000;
+}
+.services .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
 }
